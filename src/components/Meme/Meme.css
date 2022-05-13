@@ -1,0 +1,75 @@
+form {
+  margin: 30px 200px 30px 200px;
+}
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+}
+input {
+  font-family: "Karla", sans-serif;
+  width: 33.3vw;
+  height: 40px;
+  border-radius: 8px;
+  border: 1.5px solid #d5d4d8;
+  padding: 12px;
+}
+input:first-child {
+  margin-right: 25px;
+}
+button {
+  font-family: "Karla", sans-serif;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  display: block;
+  margin: 20px 0 20px;
+  padding: 10px 0;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.07em;
+}
+.meme-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+}
+.meme-container>img{
+  width: 69%;
+  height: 350px;
+  object-fit: contain;
+  
+}
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 5%;
+}
+
+.top {
+  top: 5%;
+}

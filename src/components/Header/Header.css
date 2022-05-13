@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px 160px 15px 160px;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+}
+
+.logo-img {
+  width: 55px;
+  height: auto;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.07em;
+}
+.right {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.07em;
+}
